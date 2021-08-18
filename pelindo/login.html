@@ -8,46 +8,56 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Masuk | Keluhan Agen</title>
+    <link rel = "icon" href ="https://upload.wikimedia.org/wikipedia/id/thumb/8/8c/Pelindo_II_%28IPC%29_logo_2012.svg/2560px-Pelindo_II_%28IPC%29_logo_2012.svg.png" type = "image/x-icon">
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-      <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-          <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                  <a class="nav-link" href="#">Left</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="//codeply.com">Codeply</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-              </li>
-          </ul>
-      </div>
-      <div class="mx-auto order-0">
-          <a class="navbar-brand mx-auto" href="#">Navbar 2</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-              <span class="navbar-toggler-icon"></span>
+    <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-warning">
+            <div class="container ">
+              <a class="navbar-brand" href="#">
+                <img src="assets/img/logopelindo.png" alt="" width="108.8" height="50">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
-      </div>
-      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-          <ul class="navbar-nav col-4">
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Right</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-              </li>
-          </ul>
-      </div>
-  </nav>
+              <div class="col-7 justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                  </li>
+                  <li class="nav-item">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Keluhan
+                        </a>
+                        <ul class="dropdown-menu bg-primary" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="formnotakapal.html">Form Keluhan Nota Kapal</a></li>
+                          <li><a class="dropdown-item" href="formnotasampah.html">Form Keluhan Nota Sampah Kapal</a></li>
+                          <li><a class="dropdown-item" href="formppkb.html">Form Keluhan Penghapusan PPKB</a></li>
+                        </ul>
+                    </li>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Hasil</a>
+                  </li>
+                    <div class="col-5"> </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Masuk</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">|</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="regist.html">Daftar</a>
+                        </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>>
+    <!-- End Navbar -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
