@@ -12,65 +12,87 @@
   </head>
   <body>
   
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-warning ">
-      <div class="container">
-          <a class="navbar-brand" href="index.html">
-              <img src="assets/img/logopelindo.png" alt="" width="150" height="68.61">
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-warning">
+          <div class="container ">
+            <a class="navbar-brand" href="#">
+              <img src="assets/img/logopelindo.png" alt="" width="108.8" height="50">
             </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="col-7 justify-content-center" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
-            </li>
-            <li class="nav-item">
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Keluhan
-                  </a>
-                  <ul class="dropdown-menu bg-primary" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Form Keluhan Nota Kapal</a></li>
-                    <li><a class="dropdown-item" href="#">Form Keluhan Nota Sampah Kapal</a></li>
-                    <li><a class="dropdown-item" href="#">Form Keluhan Penghapusan PPKB</a></li>
-                  </ul>
-              </li>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Hasil</a>
-            </li>
-              <div class="col-5"> </div>
-                  <li class="nav-item">
-                      <a class="nav-link" href="login.html">Masuk</a>
+            <div class="col-7 justify-content-center" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                </li>
+                <li class="nav-item">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Keluhan
+                      </a>
+                      <ul class="dropdown-menu bg-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Form Keluhan Nota Kapal</a></li>
+                        <li><a class="dropdown-item" href="#">Form Keluhan Nota Sampah Kapal</a></li>
+                        <li><a class="dropdown-item" href="#">Form Keluhan Penghapusan PPKB</a></li>
+                      </ul>
                   </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">|</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="regist.html">Daftar</a>
-                  </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <form>
-      <div class="container mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-      </div>
-      <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
-      </div>
-      <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Hasil</a>
+                </li>
+                  <div class="col-5"> </div>
+                      <li class="nav-item">
+                          <a class="nav-link" href="login.html">Masuk</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">|</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="regist.html">Daftar</a>
+                      </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </div>>
+  <!-- End Navbar -->
+  
+  <!-- Regis -->
+  <div class="container">
+        <form>
+          <div class="mb-3 mt-5">
+          <h1 class="text-center">Daftar</h1>
+          <p class="px-5"> Role</p>
+          <div class="row mt-4 ">
+              <div class="col-sm"></div>
+                  <div class="col-sm form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <label class="form-check-label" for="inlineRadio1">Agen</label>
+                  </div>
+                
+                  <div class="col-sm form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <label class="form-check-label " for="inlineRadio1">Customer Service</label>
+                  </div>
+                  <div class="col-sm"></div>
+              </div>
+              <div class="row">
+                  <div class="col-sm"></div>
+                <div class="col-sm form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Penanda Tangan</label>
+                </div>
+                <div class="col-sm form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Pihak Verifikasi</label>
+                </div>
+                <div class="col-sm"></div>
+              </div>
+        </form>
+  
+  </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
