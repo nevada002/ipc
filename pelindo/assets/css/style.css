@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(247, 173, 26);
+    justify-content: space-around;
+    /* padding: 20px 0; */
+    color: black;
+    height: 100px;
+    align-items: center;
+}
+
+nav .logo{
+    letter-spacing: 3px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+nav ul li a:hover{
+    color: rgb(0,175,234);
+}
+
+/*  */
