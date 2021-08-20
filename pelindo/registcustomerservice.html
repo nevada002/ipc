@@ -12,6 +12,7 @@
     <link rel = "icon" href ="https://upload.wikimedia.org/wikipedia/id/thumb/8/8c/Pelindo_II_%28IPC%29_logo_2012.svg/2560px-Pelindo_II_%28IPC%29_logo_2012.svg.png" type = "image/x-icon">
   </head>
   <body>
+
 <div class="container">
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background: #F7AD1A">
@@ -59,72 +60,81 @@
 </div>>
 <!-- End Navbar -->
 
-<!-- Regis -->
+<!-- Memilih Role -->
 <div class="container">
-      <form>
-        <div class="mb-3 mt-5">
-        <h1 class="text-center">Daftar</h1>
-        <p class="px-5"> Role</p>
-        <div class="row mt-4 ">
-            <div class="col-sm"></div>
-                <div class="col-sm form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                    <label class="form-check-label" for="inlineRadio1">Agen</label>
-                </div>
-              
-                <div class="col-sm form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                    <label class="form-check-label " for="inlineRadio1">Customer Service</label>
-                </div>
-                <div class="col-sm"></div>
-            </div>
-            <div class="row">
-                <div class="col-sm"></div>
-              <div class="col-sm form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                <label class="form-check-label" for="inlineRadio1">Penanda Tangan</label>
+  <div class="card border-0 mt-5" style="max-width:auto;">
+      <div class="card-body">
+        <h1 class="card-title text-center">Daftar</h1>
+          <div class="row">
+              <div class="col"></div>
+              <div class="col">
+                  <h4> Role</h4>
               </div>
-              <div class="col-sm form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                <label class="form-check-label" for="inlineRadio1">Pihak Verifikasi</label>
-              </div>
+              <div class="col"></div>
+              <div class="col"></div>
+          </div>
+          <div class="row mt-4 ">
               <div class="col-sm"></div>
-            </div>
-            <div class="container">
-              <div class="mt-5 mb-3">
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nama Agen">
-              </div>
-              <div class="mt-2 mb-3">
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Alamat">
-              </div>
-              <div class="mt-2 mb-3">
-                <input type="email" class="form-control" id="formGroupExampleInput" placeholder="E-mail">
-              </div>
-              <div class="mt-2 mb-3">
-                <input type="password" class="form-control" id="formGroupExampleInput" placeholder="Kata Sandi">
-              </div>
-              <div class="mt-2 mb-3">
-                <input type="password" class="form-control" id="formGroupExampleInput" placeholder="Ulangi Kata Sandi">
-              </div>  
-              
-              <div class="card-footer py-3 border-0">
-                  <div class="text-center">
-                      Sudah Memiliki Akun ? <a href="#" class="text-dark">Login</a>
-                      <button type = "submit" class="btn btn-primary mx-auto">
-                          Daftar
-                      </button>
+                  <div class="col-sm form-check form-check-inline">
+                    <a href="registagen.html" class="link-dark">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Agen</label>
+                    </a>
                   </div>
-                  <div class="align-items-center d-flex">
-                      
-                  </div>
-              <!-- <div class="row mb-lg-auto">
-              <p class="text-center">Sudah Memiliki Akun?<a href="#">Login</a><button type="submit" class="btn btn-primary ">Daftar</button></p> 
-            </div> -->
+                  <div class="col-sm form-check form-check-inline">
+                    <a href="registcustomerservice.html" class="link-dark">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label " for="inlineRadio1">Customer Service</label>
+                    </a>
+                   </div>
+                <div class="col-sm"></div>
             </div>
-        </div>
-      </form>
+    
+            <div class="row mt-1 ">
+                <div class="col-sm"></div>
+                  <div class="col-sm form-check form-check-inline">
+                    <a href="registjabatan.html" class="link-dark">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Penanda Tangan</label>
+                    </a>
+                  </div>
+                  <div class="col-sm form-check form-check-inline">
+                    <a href="registjabatan.html" class="link-dark" >
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Pihak Verifikasi</label>
+                    </a>
+                </div>
+              <div class="col-sm"></div>
+          </div>
+      </div>
+<!-- End Memilih Role -->
 
-</div>
+<!-- Input Data -->
+      <form action="login.html">
+          <div class="col mt-auto mb-3 ">
+              <input type="text" class="form-control border-0" id="exampleFormControlInput1" placeholder="Nama Lengkap">
+          </div>
+          <div class="col mb-3 ">
+              <input type="email" class="form-control border-0" id="exampleFormControlInput1" placeholder="E-mail">
+          </div>
+          <div class="col mb-3">
+              <input type="password" class="form-control border-0" id="exampleFormControlInput1" placeholder="Kata Sandi">
+          </div>
+          <div class="col mb-3">
+              <input type="password" class="form-control border-0" id="exampleFormControlInput1" placeholder="Ulangi Kata Sandi">
+          </div>
+          <div class="row">
+              <div class="col"></div>
+              <div class="col mt-4">Sudah memiliki akun?<a href="login.html">Login</a></div>
+              <div class="col-auto mt-3 ">
+                  <button type="submit" class="btn btn-primary">Daftar</button>
+              </div>
+          </div>  
+      </form>
+<!-- Akhir Pendaftaraan -->
+    </div>
+  </div>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
