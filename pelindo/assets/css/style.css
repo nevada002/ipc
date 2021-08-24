@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @charset "UTF-8";
 
 :root {
@@ -59,12 +58,6 @@
 *::after {
   box-sizing: border-box;
 }
-=======
-/*
-    DEMO STYLE
-*/
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
->>>>>>> a14c12509d0029a67b248db44a7a683dcc2331d1
 
 
 body {
