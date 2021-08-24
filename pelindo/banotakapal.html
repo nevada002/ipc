@@ -1,112 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-        <title>BA Nota Kapal</title>
-        <link rel = "icon" href ="assets/img/logoatas.svg" type = "image/x-icon">
-
-         <!-- Bootstrap CSS CDN -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <!-- Our Custom CSS -->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>BA Nota</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="assets/css/style.css" rel="stylesheet" />
     </head>
     <body>
-
-
-
-        <div class="wrapper">
-            <!-- Sidebar Holder -->
-            <nav id="sidebar">
-                <div class="sidebar-header">
-                    <img src="assets/img/logopelindo.png" alt="" width="108.8" height="50">
-                
+        <div class="d-flex" id="wrapper">
+            <!-- Sidebar-->
+            <div class="border-end bg-white" id="sidebar-wrapper">
+                <div class="sidebar-heading border-bottom bg-light">Start Bootstrap</div>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Dashboard</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Shortcuts</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Overview</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Events</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Profile</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Status</a>
                 </div>
-
-                <ul class="list-unstyled components">
-                    <div class="line"></div>
-                    <li>
-                        <a href="#">Dashboard</a>
-                    </li>   
-                    <li class="active">
-                        <a href="#banotakapal" data-toggle="collapse" aria-expanded="false">Berita Acara Nota Kapal</a>
-                        <ul class="collapse list-unstyled" id="banotakapal">
-                            <li><a href="#">Keluhan Berita Acara Nota Kapal</a></li>
-                            <li><a href="#">Membuat Berita Acara Nota Kapal</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#basampahkapal" data-toggle="collapse" aria-expanded="false">Berita Acara Sampah Kapal</a>
-                        <ul class="collapse list-unstyled" id="basampahkapal">
-                            <li><a href="#">Keluhan Berita Acara Nota Sampah Kapal</a></li>
-                            <li><a href="#">Membuat Berita Acara Nota Sampah Kapal</a></li>
-                        </ul>
-                    </li>   
-                    <li>
-                        <a href="#bappkb" data-toggle="collapse" aria-expanded="false">Berita Acara Penghapusan PPKB</a>
-                        <ul class="collapse list-unstyled" id="bappkb">
-                            <li><a href="#">Keluhan Berita Acara Penghapusan PPKB</a></li>
-                            <li><a href="#">Membuat Berita Acara Penghapusan PPKB</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Review</a>
-                    </li>
-                    <li>
-                        <a href="#">Logout</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <!-- Page Content Holder -->
-            <div id="content">
-
-                <nav class="navbar navbar-default">
-                    <div class="container">
-
-                      <h1 class="">Keluhan Nota Kapal</h1>
+            </div>
+            <!-- Page content wrapper-->
+            <div id="page-content-wrapper">
+                <!-- Top navigation-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                    <div class="container-fluid">
+                        <h1 class="mt-4">Nota Kapal</h1>
 
                     </div>
                 </nav>
-                <table class="table table-bordered table" style="background: transparent;">
-                    <thead>
-                      
-                      <tr>
-                        <th scope="col">No</th>
-                        <th scope="col">Nomor Berita Acara</th>
-                        <th scope="col">Jenis Berita Acara</th>
-                        <th scope="col">Status</th>
-                        <th scope="col">Aksi</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>12345</td>
-                        <td>BA NOTA KAPAL</td>
-                        <td>Diproses</td>
-                        <td></td>
-                      </tr>
+                <!-- Page content-->
+                <div class="container-fluid">
+                    <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+                    <p>
+                    
+                    </p>
+                </div>
             </div>
         </div>
-
-
-
-
-
-        <!-- jQuery CDN -->
-         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-         <!-- Bootstrap Js CDN -->
-         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-         <script type="text/javascript">
-             $(document).ready(function () {
-                 $('#sidebarCollapse').on('click', function () {
-                     $('#sidebar').toggleClass('active');
-                 });
-             });
-         </script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="assets/js/scripts.js"></script>
     </body>
 </html>
