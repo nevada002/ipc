@@ -22,15 +22,15 @@ a, a:hover, a:focus {
     text-decoration: none;
     transition: all 0.3s;
 }
-
+ 
 .navbar {
-    padding: 15px 10px;
+    max-width: 1140px;
     background: #fff;
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-}
+} 
 
 .navbar-btn {
     box-shadow: none;
@@ -42,7 +42,7 @@ a, a:hover, a:focus {
     width: 100%;
     height: 1px;
     border-bottom: 1px dashed #ddd;
-    margin: 40px 0;
+
 }
 
 /* ---------------------------------------------------
@@ -56,8 +56,8 @@ a, a:hover, a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #7386D5;
-    color: #fff;
+    background: #FFBE3E;
+    color: rgb(0, 0, 0);
     transition: all 0.3s;
 }
 
@@ -67,16 +67,16 @@ a, a:hover, a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+
 }
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
+    border-bottom: 1px solid #FFBE3E;
 }
 
 #sidebar ul p {
-    color: #fff;
+    color: rgb(0, 0, 0);
     padding: 10px;
 }
 
@@ -86,13 +86,13 @@ a, a:hover, a:focus {
     display: block;
 }
 #sidebar ul li a:hover {
-    color: #7386D5;
+    color: #00AFEA;
     background: #fff;
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
-    color: #fff;
-    background: #6d7fcc;
+    color: rgb(0, 0, 0);
+    background: #FFBE3E;
 }
 
 
@@ -116,7 +116,7 @@ a[aria-expanded="true"]::before {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #00AFEA;
 }
 
 ul.CTAs {
