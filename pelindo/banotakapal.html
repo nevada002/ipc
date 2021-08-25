@@ -26,15 +26,13 @@
 <body>
     <div class="wrapper">
         <!-- Sidebar  -->
-        <nav id="sidebar">
+        <nav class="text-center" id="sidebar">
             <div class="sidebar-header">
                 <img src="assets/img/logopelindo.png" alt="" width="154.5" height="71">
             </div>
-
-            <ul class="list-unstyled components">
-                
+            <ul class="list-unstyled components">                
                 <li>
-                    <a href="#">Dashboard</a>
+                    <a href="dashboard.html">Dashboard</a>
                 </li>
                 <li>
                     <a href="#notakapal" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Berita Acara Nota Kapal</a>
@@ -72,6 +70,7 @@
                             </li>
                     </ul>
                 </li>
+
                 <li>
                     <a href="review.html">Review</a>
                 </li>
@@ -79,23 +78,17 @@
                     <a href="index.html">Logout</a>
                 </li>
             </ul>
-
         </nav>
 
         <!-- Page Content  -->
         <div id="content">
-
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-
-                        <h1>Keluhan Nota Kapal</h1>
-                        
-                
-                </div>
-                
+                        <h1>Keluhan Nota Kapal</h1>                       
+                </div>               
             </nav>
 
-            <table class="table table-bordered table" style="background: transparent;">
+            <table class="table table-bordered table text-center" style="background: transparent;">
                 <thead>
                   <tr>
                     <th scope="col">Nama Kapal</th>
@@ -113,43 +106,47 @@
                     <td><form method="get" action="file/PenerimaanKP.pdf">
                         <button type="submit">Download</button>
                      </form></td>
-                    <td> <div class="btn-group open">
-                        <a class="btn btn-default"><i class="icon-cog"></i>   </a>
-                        <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
-                          <span class=" "></span></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Proses</a></li>
-                          <li><a href="#">Ditolak</a></li>
-                          <li><a href="#">Berhasil</a></li>                          
-                          <li class="divider"></li>
-                          
-                        </ul>
-                      </div> </td>
-                
+                    <td>
+                        <div class="btn-group open">
+                            <a class="btn btn-default"><i class="icon-cog"></i>   </a>
+                            <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
+                            <span class=" "></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Proses</a></li>
+                                <li><a href="#">Ditolak</a></li>
+                                <li><a href="#">Berhasil</a></li>                          
+                                <li class="divider"></li>                            
+                            </ul>
+                        </div>
+                    </td>                
                   </tr>
+
                   <tr>
                     <td>Umsini KM</td>
                     <td>19-Agustus-2021</td>
                     <td>Permohonan Koreksi Nota Kapal</td>
-                    <td><form method="get" action="file/PenerimaanKP.pdf">
-                        <button type="submit">Download</button>
-                     </form></td>
-                    <td> <div class="btn-group open">
-                        <a class="btn btn-default"><i class="icon-cog"></i>   </a>
-                        <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
-                          <span class=" "></span></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Proses</a></li>
-                          <li><a href="#">Ditolak</a></li>
-                          <li><a href="#">Berhasil</a></li>    
-                          <li><a href=""></a></li>                      
-                          <li class="divider"></li>
-                           </ul>
-                    </div></td>
+                    <td>
+                        <form method="get" action="file/PenerimaanKP.pdf">
+                            <button type="submit">Download</button>
+                        </form>
+                    </td>
+                    <td>
+                        <div class="btn-group open">
+                            <a class="btn btn-default"><i class="icon-cog"></i></a>
+                            <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
+                            <span class=" "></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Proses</a></li>
+                                <li><a href="#">Ditolak</a></li>
+                                <li><a href="#">Berhasil</a></li>    
+                                <li><a href=""></a></li>                      
+                                <li class="divider"></li>
+                            </ul>
+                        </div>
+                    </td>
                   </tr>
-                  </tbody>
-                  </table>
-        
+                </tbody>
+            </table>        
         </div>
     </div>
 

@@ -1,112 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        
-        <title>Dashboard</title>
+<html>
 
-        <link rel = "icon" href ="assets/img/logoatas.svg" type = "image/x-icon">
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="assets/css/style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <div class="d-flex" id="wrapper">
-            <!-- Sidebar-->
-            <div class="border-end" id="sidebar-wrapper" style="background: #FFBE3E">
-                <div class="sidebar-heading border-bottom align-content-center " style="background: #F7AD1A">
-                    <img src="assets/img/logopelindo.png" alt="" width="154.5" height="71">
-                </div>
-                <ul class="list-unstyled components">
-                    <div class="line"></div>
-                    <li>
-                        <a href="#">Dashboard</a>
-                    </li>
-                    <li class="active">
-                        <a href="#banotakapal" data-toggle="collapse" aria-expanded="false">Berita Acara Nota Kapal</a>
-                        <ul class="collapse list-unstyled" id="banotakapal">
-                            <li><a href="#">Keluhan Berita Acara Nota Kapal</a></li>
-                            <li><a href="#">Membuat Berita Acara Nota Kapal</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#basampahkapal" data-toggle="collapse" aria-expanded="false">Berita Acara Sampah Kapal</a>
-                        <ul class="collapse list-unstyled" id="basampahkapal">
-                            <li><a href="#">Keluhan Berita Acara Nota Sampah Kapal</a></li>
-                            <li><a href="#">Membuat Berita Acara Nota Sampah Kapal</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#bappkb" data-toggle="collapse" aria-expanded="false">Berita Acara Penghapusan PPKB</a>
-                        <ul class="collapse list-unstyled" id="bappkb">
-                            <li><a href="#">Keluhan Berita Acara Penghapusan PPKB</a></li>
-                            <li><a href="#">Membuat Berita Acara Penghapusan PPKB</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Review</a>
-                    </li>
-                    <li>
-                        <a href="#">Logout</a>
-                    </li>
-                </ul>
-            </nav>>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Dashboard Admin</title>
+    <link rel = "icon" href ="assets/img/logoatas.svg" type = "image/x-icon">
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav class="text-center" id="sidebar">
+            <div class="sidebar-header">
+                <img src="assets/img/logopelindo.png" alt="" width="154.5" height="71">
             </div>
-            <!-- Page content wrapper-->
-            <div id="page-content-wrapper">
-                <!-- Top navigation-->
-                <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-                    <div class="container-fluid">
-                        <h1 class="mt-4">Dashboard</h1>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        </div>
+            <ul class="list-unstyled components ">                
+                <li>
+                    <a href="#">Dashboard</a>
+                </li>
+                <li>
+                    <a href="#notakapal" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Berita Acara Nota Kapal</a>
+                    <ul class="collapse list-unstyled" id="notakapal">
+                        <li>
+                            <a href="banotakapal.html">Keluhan Berita Acara
+                                Nota Kapal</a>
+                        </li>
+                        <li>
+                            <a href="#">Membuat Berita Acara Nota Kapal</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#notasampah" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Berita Acara Nota Sampah Kapal</a>
+                    <ul class="collapse list-unstyled" id="notasampah">
+                        <li>
+                            <a href="basampahkapal.html">Keluhan Berita Acara Nota Sampah Kapal</a>
+                        </li>
+                        <li>
+                            <a href="#">Membuat Berita Acara Nota Sampah Kapal</a>
+                        </li>                        
+                    </ul>
+                </li>
+                <li>
+                    <a href="#hapusppkb" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Berita Acara Penghapusan PPKB</a>
+                    <ul class="collapse list-unstyled" id="hapusppkb">
+                        <li>
+                            <a href="bahapusppkb.html">Keluhan Berita Acara Penghapusan PPKB</a>
+                        </li>
+                        <li>
+                            <a href="#">Membuat Berita Acara Penghapusan PPKB</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="review.html">Review</a>
+                </li>
+                <li>
+                    <a href="index.html">Logout</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <h1>Dashboard</h1>
+                </div>                
+            </nav>
+            <div class="row">
+                <div class="col-auto">
+                  <div class="card border-0" style="width: 15rem; height: 10rem; background-color: #DFDFDF;">
+                    <div class="card-body">
+                      <h1 class="card-title">20</h1>
+                      <p class="card-text">Jumlah Agen/User</p>
                     </div>
-                </nav>
-                <!-- Page content-->
-                <div class="container mt-4 ">
-                    <div class="row">
-                        <div class="col">
-                    <div class="card" style="width: 15rem; height:8rem;">
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="card border-0" style="width: 15rem; height: 10rem; background-color: #DFDFDF;">
+                    <div class="card-body">
+                      <h1 class="card-title">5</h1>
+                      <p class="card-text">Jumlah Berita Acara Nota Kapal</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card border-0" style="width: 15rem; height: 10rem; background-color: #DFDFDF;">
                         <div class="card-body">
-                        <h2 class="card-title">20</h2>
-                        <p class="card-text">Jumlah User/Agen</p>
+                            <h1 class="card-title">2</h1>
+                            <p class="card-text">Jumlah Berita Acara Nota Sampah Kapal</p>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card" style="width: 15rem; height:8rem;">
+                <div class="col-auto">
+                    <div class="card border-0" style="width: 15rem; height: 10rem; background-color: #DFDFDF;">
                         <div class="card-body">
-                        <h2 class="card-title">5</h2>
-                        <p class="card-text">Jumlah Berita Acara Nota Kapal</p>
+                            <h1 class="card-title">5</h1>
+                            <p class="card-text">Jumlah Berita Acara Penghapusan PPKB</p>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 15rem; height:8rem;">
-                        <div class="card-body">
-                        <h2 class="card-title">2</h2>
-                        <p class="card-text">Jumlah Berita Acara Nota Sampah Kapal</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 15rem; height:8rem;">
-                        <div class="card-body">
-                        <h2 class="card-title">5</h2>
-                        <p class="card-text">Jumlah Berita Acara Penghapusan PPKB</p>
-                        </div>
-                    </div>
-                </div>
-                </div>
                 </div>
             </div>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+    </div>
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
 </html>
