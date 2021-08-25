@@ -26,15 +26,13 @@
 <body>
     <div class="wrapper">
         <!-- Sidebar  -->
-        <nav id="sidebar">
+        <nav class="text-center" id="sidebar">
             <div class="sidebar-header">
                 <img src="assets/img/logopelindo.png" alt="" width="154.5" height="71">
             </div>
-
-            <ul class="list-unstyled components">
-                
+            <ul class="list-unstyled components">                
                 <li>
-                    <a href="#">Dashboard</a>
+                    <a href="dashboard.html">Dashboard</a>
                 </li>
                 <li>
                     <a href="#notakapal" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Berita Acara Nota Kapal</a>
@@ -56,8 +54,7 @@
                         </li>
                         <li>
                             <a href="#">Membuat Berita Acara Nota Sampah Kapal</a>
-                        </li>
-                        
+                        </li>                        
                     </ul>
                 </li>
 
@@ -72,11 +69,12 @@
                             </li>
                     </ul>
                 </li>
+
                 <li>
-                    <a href="#">Review</a>
+                    <a href="review.html">Review</a>
                 </li>
                 <li>
-                    <a href="#">Logout</a>
+                    <a href="index.html">Logout</a>
                 </li>
             </ul>
 
@@ -84,18 +82,13 @@
 
         <!-- Page Content  -->
         <div id="content">
-
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-
-                        <h1>Keluhan Penghapusan PPKB</h1>
-                        
-                
-                </div>
-                
+                    <h1>Keluhan Penghapusan PPKB</h1>                     
+                </div>               
             </nav>
 
-            <table class="table table-bordered table" style="background: transparent;">
+            <table class="table table-bordered table text-center" style="background: transparent;">
                 <thead>
                   <tr>
                     <th scope="col">Nama Kapal</th>
@@ -114,22 +107,25 @@
                     <td>202101003015/ 7 Ex.4</td>
                     <td>Perpanjangan</td>
                     <td>PT.BAHARI EKA NUSANTARA/850</td>
-                    <td><form method="get" action="file/PenerimaanKP.pdf">
-                        <button type="submit">Download</button>
-                     </form></td>
-                    <td> <div class="btn-group open">
-                        <a class="btn btn-default"><i class="icon-cog"></i>   </a>
-                        <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
-                          <span class=" "></span></a>
+                    <td>
+                        <form method="get" action="file/PenerimaanKP.pdf">
+                            <button type="submit">Download</button>
+                        </form>
+                    </td>
+                    <td> 
+                        <div class="btn-group open">
+                            <a class="btn btn-default"><i class="icon-cog"></i></a>
+                            <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
+                            <span class=" "></span></a>
                         <ul class="dropdown-menu">
                           <li><a href="#">Proses</a></li>
                           <li><a href="#">Ditolak</a></li>
                           <li><a href="#">Berhasil</a></li>    
                           <li><a href=""></a></li>                      
-                          <li class="divider"></li>
-                          
+                          <li class="divider"></li>                          
                         </ul>
-                      </div> </td>
+                      </div>
+                    </td>
                 
                   </tr>
                   <tr>
@@ -138,9 +134,11 @@
                     <td>202101003015/ 7 Ex.10</td>
                     <td>Perpanjangan</td>
                     <td>PT.BAHARI/850</td>
-                    <td><form method="get" action="file/PenerimaanKP.pdf">
-                        <button type="submit">Download</button>
-                     </form></td>
+                    <td>
+                        <form method="get" action="file/PenerimaanKP.pdf">
+                            <button type="submit">Download</button>
+                        </form>
+                    </td>
                     <td> <div class="btn-group open">
                         <a class="btn btn-default"><i class="icon-cog"></i>   </a>
                         <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
@@ -150,14 +148,14 @@
                           <li><a href="#">Ditolak</a></li>
                           <li><a href="#">Berhasil</a></li>    
                           <li><a href=""></a></li>                      
-                          <li class="divider"></li>
-                          
+                          <li class="divider"></li>                          
                         </ul>
-                      </div> </td>
+                      </div>
+                    </td>
                     
                   </tr>
                   </tbody>
-                  </table>
+            </table>
         
         </div>
     </div>
