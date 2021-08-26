@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Pembuatan Berita Acara Nota Kapal</title>
+    <title>Pembuatan Berita Acara Penghapusan PPKB</title>
     <link rel = "icon" href ="assets/img/logoatas.svg" type = "image/x-icon">
 
     <!-- Bootstrap CSS CDN -->
@@ -81,7 +81,7 @@
         <div id="content">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <h1>Surat Berita Acara Koreksi Nota Kapal</h1>
+                    <h1>Surat Berita Acara Penghapusan PPKB</h1>
                 </div>                
             </nav>
             <div class="container">
@@ -94,7 +94,7 @@
                         <!-- Modal content-->
                         <div class="modal-content">
                         <div class="modal-header">
-                            <h4 class="modal-title">Surat Berita Acara Koreksi Nota Kapal</h4>
+                            <h4 class="modal-title">Surat Berita Acara Penghapusan PPKB</h4>
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                         </div>
                         <div class="modal-body">
@@ -107,32 +107,32 @@
                                 <input type="date" class="form-control" id="haridantanggal">
                             </div>
                             <div class="mb-3">
-                                <label for="namaperusahaan" class="form-label">Nama Perusahaan</label>
-                                <input type="text" class="form-control" id="namaperusahaan">
+                                <label for="namakapal" class="form-label">Nama Kapal</label>
+                                <input type="text" class="form-control" id="namakapal">
                             </div>
                             <div class="mb-3">
-                                <label for="namaperusahaan" class="form-label">No Surat Perusahaan</label>
-                                <input type="text" class="form-control" id="namaperusahaan">
+                                <label for="noppkb" class="form-label">No PPKB / Ke</label>
+                                <input type="text" class="form-control" id="noppkb">
                             </div>
                             <div class="mb-3">
-                                <label for="haridantanggal" class="form-label">Tanggal Surat</label>
-                                <input type="date" class="form-control" id="haridantanggal">
+                                <label for="noukk" class="form-label">No UKK</label>
+                                <input type="text" class="form-control" id="noukk">
                             </div>
                             <div class="mb-3">
-                                <label for="perihal" class="form-label">Perihal</label>
-                                <textarea class="form-control" id="perihal" rows="2"></textarea>
+                                <label for="agen" class="form-label">Agen</label>
+                                <input type="text" class="form-control" id="agen">
                             </div>
                             <div class="mb-3">
-                                <label for="penjelasan" class="form-label">Penjelasan</label>
-                                <textarea class="form-control" id="penjelasan" rows="3"></textarea>
+                                <label for="lokasi" class="form-label">Lokasi</label>
+                                <input type="text" class="form-control" id="lokasi">
                             </div>
                             <div class="mb-3">
-                                <label for="nomornotakapal" class="form-label">Nomor Nota Kapal</label>
-                                <input type="text" class="form-control" id="nomornotakapal">
+                                <label for="tujuan" class="form-label">Tujuan</label>
+                                <input type="text" class="form-control" id="tujuan">
                             </div>
                             <div class="mb-3">
-                                <label for="keterangan" class="form-label">Keterangan</label>
-                                <input type="text" class="form-control" id="keterangan">
+                                <label for="alasan" class="form-label">Alasan Penghapusan PPKB</label>
+                                <textarea class="form-control" id="alasan" rows="3"></textarea>
                             </div>
                             <div class="mb-3">
                                 <label for="pembuat" class="form-label">Dibuat Oleh</label>
@@ -144,7 +144,7 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <bottom type="button" class="btn btn-default btn-primary " data-dismiss="modal">Simpan</bottom>
+                            <button type="button" class="btn btn-default btn-primary " data-dismiss="modal">Simpan</button>
                             <button type="button" class="btn btn-default btn-secondary " data-dismiss="modal">Keluar</button>
                         </div>
                         </div>
@@ -157,13 +157,14 @@
                             <th class="align-text-top" scope="col">No</th>
                             <th class="align-text-top" scope="col">Nomor Surat</th>
                             <th class="align-text-top" scope="col">Hari dan Tanggal</th>
-                            <th class="align-text-top" scope="col">Nama Perusahaan</th>
-                            <th class="align-text-top" scope="col">No Surat Perusahaan</th>
-                            <th class="align-text-top" scope="col">Tanggal Surat</th>
-                            <th class="align-text-top" scope="col">Perihal</th>
-                            <th class="align-text-top" scope="col">Penjelasan</th>
-                            <th class="align-text-top" scope="col">Nomor Nota Kapal</th>
-                            <th class="align-text-top" scope="col">Keterangan</th>
+                            <th class="align-text-top" scope="col">Nama Kapal</th>
+                            <th class="align-text-top" scope="col">No.PPKB / Ke</th>
+                            <th class="align-text-top" scope="col">Service Code</th>
+                            <th class="align-text-top" scope="col">No.UKK</th>
+                            <th class="align-text-top" scope="col">Agen</th>
+                            <th class="align-text-top" scope="col">Lokasi</th>
+                            <th class="align-text-top" scope="col">Tujuan</th>
+                            <th class="align-text-top" scope="col">Alasan Penghapusan PPKB</th>
                             <th class="align-text-top" scope="col">Dibuat Oleh</th>
                             <th class="align-text-top" scope="col">Lampiran Pendukung</th>
                             <th class="align-text-top" scope="col">Aksi</th>
@@ -172,19 +173,18 @@
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td >26821/BA-KNK/1/2021</td>
-                            <td>10/9/2021</td>
-                            <td>PT. SAMUDERA SHIPPING</td>
-                            <td>SR.21.08.006/OPS</td>
-                            <td>3/8/2021</td>
-                            <td>Permohonan Pengajuan Koreksi Nota 0800102110007940 CALIDRIS. MV periode kunjungan 25/07/2021 s.d 26/07/2021.</td>
-                            <td>a.Berdasarkan Surat Keputusan Direksi PT. Pelabuhan Indonesia II (Persero)
-                                b.Pengenaan denda pasal 5.2b pada kapal MV. WINTER
-                            </td>
-                            <td>0800102110007940</td>
-                            <td>Koreksi Pasal 5.2b SK. Dir</td>
+                            <td>26821/BA-PPPKB/1/2021</td>
+                            <td>21/7/2021</td>
+                            <td>AHT SMS EXPLORER</td>
+                            <td>202101003015 / 7 Ex. 4</td>
+                            <td>Perpanjangan</td>
+                            <td>0218402494232</td>
+                            <td>PT. BAHARI EKA NUSANTARA / 850</td>
+                            <td>Pelabuhan Tanjung Priok</td>
+                            <td>Pelabuhan Tanjung Perak</td>
+                            <td>PPKB Tidak terpakai/ PPKB gantung karena double entry sehingga menghambat nota terbit</td>
                             <td>Budi</td>
-                            <td><a href="file/PenerimaanKP.pdf" download="banotakapal">notakapal.pdf</a></td>
+                            <td><a href="file/PenerimaanKP.pdf" download="banotakapal">notapenghapusanppkb.pdf</a></td>
                             <td>
                                 <div class="btn-group open">
                                     <button type="button" class="btn btn-primary" >
@@ -205,8 +205,6 @@
 
                         <!-- <tr>
                             <td>2</td>
-                            <td></td>
-                            <td></td>
                             <td></td>
                             <td></td>
                             <td></td>
