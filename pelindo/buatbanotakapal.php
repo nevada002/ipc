@@ -242,8 +242,8 @@
                                         <input type="text" class="form-control" id="nomorsurat">
                                     </div>
                                     <div class="mb-3">
-                                        <label for="haridantanggal" class="form-label">Hari dan Tanggal</label>
-                                        <input type="date" class="form-control" id="haridantanggal">
+                                        <label for="date" class="form-label">Hari dan Tanggal</label>
+                                        <input type="date" class="form-control" id="date">
                                     </div>
                                     <div class="mb-3">
                                         <label for="namaperusahaan" class="form-label">Nama Perusahaan</label>
