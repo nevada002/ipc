@@ -20,7 +20,7 @@
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
-    
+
 </head>
 
 <body>
@@ -30,7 +30,7 @@
             <div class="sidebar-header">
                 <img src="assets/img/logopelindo.png" alt="" width="154.5" height="71">
             </div>
-            <ul class="list-unstyled components">                
+            <ul class="list-unstyled components">
                 <li>
                     <a href="dashboard.php">Dashboard</a>
                 </li>
@@ -54,7 +54,7 @@
                         </li>
                         <li>
                             <a href="buatbasampahkapal.php">Membuat Berita Acara Nota Sampah Kapal</a>
-                        </li>                        
+                        </li>
                     </ul>
                 </li>
 
@@ -84,8 +84,8 @@
         <div id="content">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <h1>Keluhan Penghapusan PPKB</h1>                     
-                </div>               
+                    <h1>Keluhan Penghapusan PPKB</h1>
+                </div>
             </nav>
 
             <table class="table table-bordered table text-center" style="background: transparent;">
@@ -110,7 +110,7 @@
                     <td>Karena PPKB Double Entry</td>
                     <td> <div class="btn-group open">
                         <div style="border: none; height: 30px;  padding: 5px; width: 72px;  color:blue;">
-                            Proses 
+                            Proses
                         </div>
                         <a class="btn btn-default"><i class="icon-cog"></i>   </a>
                         <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
@@ -118,13 +118,13 @@
                         <ul class="dropdown-menu">
                           <li><a href="#">Proses</a></li>
                           <li><a href="#">Ditolak</a></li>
-                          <li><a href="#">Berhasil</a></li>    
-                          <li><a href=""></a></li>                      
-                          <li class="divider"></li>                          
+                          <li><a href="#">Berhasil</a></li>
+                          <li><a href=""></a></li>
+                          <li class="divider"></li>
                         </ul>
                       </div>
                     </td>
-                
+
                   </tr>
                   <tr>
                     <td>AHT UMSINI KM</td>
@@ -135,7 +135,7 @@
                     <td>Karena PPKB Double Entry</td>
                     <td> <div class="btn-group open">
                         <div style="border: none; height: 30px;  padding: 5px; width: 72px;  color:red;">
-                            Ditolak 
+                            Ditolak
                         </div>
                         <a class="btn btn-default"><i class="icon-cog"></i>   </a>
                         <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
@@ -143,17 +143,17 @@
                         <ul class="dropdown-menu">
                           <li><a href="#">Proses</a></li>
                           <li><a href="#">Ditolak</a></li>
-                          <li><a href="#">Berhasil</a></li>    
-                          <li><a href=""></a></li>                      
-                          <li class="divider"></li>                          
+                          <li><a href="#">Berhasil</a></li>
+                          <li><a href=""></a></li>
+                          <li class="divider"></li>
                         </ul>
                       </div>
                     </td>
-                    
+
                   </tr>
                   </tbody>
             </table>
-        
+
         </div>
     </div>
 

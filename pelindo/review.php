@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>Review</title>
-    <link rel = "icon" href ="assets/img/logoatas.svg" type = "image/x-icon">
+    <link rel="icon" href="assets/img/logoatas.svg" type="image/x-icon">
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -15,12 +15,12 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 
-<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
-    
+
 </head>
 
 <body>
@@ -32,7 +32,7 @@
             </div>
 
             <ul class="list-unstyled components">
-                
+
                 <li>
                     <a href="dashboard.php">Dashboard</a>
                 </li>
@@ -57,7 +57,7 @@
                         <li>
                             <a href="buatbasampahkapal.php">Membuat Berita Acara Nota Sampah Kapal</a>
                         </li>
-                        
+
                     </ul>
                 </li>
 
@@ -69,7 +69,7 @@
                         </li>
                         <li>
                             <a href="buatbahapusppkb.php">Membuat Berita Acara Penghapusan PPKB</a>
-                            </li>
+                        </li>
                     </ul>
                 </li>
                 <li>
@@ -87,45 +87,40 @@
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-
-                        <h1>Review</h1>
-                        
-                
+                    <h1>Review</h1>
                 </div>
-                
             </nav>
 
             <table class="table table-bordered table text-center" style="background: transparent;">
                 <thead>
-                  <tr>
-                    <th scope="col">No</th>
-                    <th scope="col">Tanggal </th>
-                    <th scope="col">Berita Acara </th>
-                    <th scope="col">Status</th>
-                    <th scope="col">Aksi</th>
-                  </tr>
+                    <tr>
+                        <th scope="col">No</th>
+                        <th scope="col">Tanggal </th>
+                        <th scope="col">Berita Acara </th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Aksi</th>
+                    </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>19-Juli-2021</td>
-                    <td><form method="get" action="file/PenerimaanKP.pdf">
-                        <button type="submit">BANOTAKAPAL.pdf</button>
-                     </form></td>
-                    <td> 
-                        
-                    </td>
-                    
-                    <td>
-                        <a class="btn btn-default" href="reviewditerima.php" ><i class="icon-ok-sign fa-2x" style="color:#00DF76"></i> </a>
-                        <a class="btn btn-default" href="reviewditolak.php"><i class="icon-remove-sign fa-2x" style="color:red"></i> </a> 
-                    </td>
-                
-                  </tr>
-               
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>19-Juli-2021</td>
+                        <td>
+                            <form method="get" action="file/PenerimaanKP.pdf">
+                                <button type="submit">BANOTAKAPAL.pdf</button>
+                            </form>
+                        </td>
+                        <td>
+
+                        </td>
+
+                        <td>
+                            <a class="btn btn-default" href="reviewditerima.php"><i class="icon-ok-sign fa-2x" style="color:#00DF76"></i> </a>
+                            <a class="btn btn-default" href="reviewditolak.php"><i class="icon-remove-sign fa-2x" style="color:red"></i> </a>
+                        </td>
+                    </tr>
                 </tbody>
-                  </table>
-        
+            </table>
         </div>
     </div>
 
@@ -137,8 +132,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
-        $(document).ready(function () {
-            $('#sidebarCollapse').on('click', function () {
+        $(document).ready(function() {
+            $('#sidebarCollapse').on('click', function() {
                 $('#sidebar').toggleClass('active');
             });
         });

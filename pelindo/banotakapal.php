@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>BA Nota Kapal</title>
-    <link rel = "icon" href ="assets/img/logoatas.svg" type = "image/x-icon">
+    <link rel="icon" href="assets/img/logoatas.svg" type="image/x-icon">
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -15,12 +15,12 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 
-<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
-    
+
 </head>
 
 <body>
@@ -30,7 +30,7 @@
             <div class="sidebar-header">
                 <img src="assets/img/logopelindo.png" alt="" width="154.5" height="71">
             </div>
-            <ul class="list-unstyled components">                
+            <ul class="list-unstyled components">
                 <li>
                     <a href="dashboard.php">Dashboard</a>
                 </li>
@@ -55,7 +55,7 @@
                         <li>
                             <a href="buatbasampahkapal.php">Membuat Berita Acara Nota Sampah Kapal</a>
                         </li>
-                        
+
                     </ul>
                 </li>
 
@@ -67,7 +67,7 @@
                         </li>
                         <li>
                             <a href="buatbahapusppkb.php">Membuat Berita Acara Penghapusan PPKB</a>
-                            </li>
+                        </li>
                     </ul>
                 </li>
 
@@ -84,74 +84,76 @@
         <div id="content">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                        <h1>Keluhan Nota Kapal</h1>                       
-                </div>               
+                    <h1>Keluhan Nota Kapal</h1>
+                </div>
             </nav>
 
             <table class="table table-bordered table text-center" style="background: transparent;">
                 <thead>
-                  <tr>
-                    <th scope="col">Nama Kapal</th>
-                    <th scope="col">Tanggal </th>
-                    <th scope="col">Deskripsi Keluhan</th>
-                    <th scope="col">Lampiran Pendukung</th>
-                    <th scope="col">Aksi</th>
-                  </tr>
+                    <tr>
+                        <th scope="col">Nama Kapal</th>
+                        <th scope="col">Tanggal </th>
+                        <th scope="col">Deskripsi Keluhan</th>
+                        <th scope="col">Lampiran Pendukung</th>
+                        <th scope="col">Aksi</th>
+                    </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td>Tanto Mitra</td>
-                    <td>19-Juli-2021</td>
-                    <td>Permohonan Koreksi dan Restitusi Nota Kapal</td>
-                    <td><form method="get" action="file/PenerimaanKP.pdf">
-                        <button type="submit">Download</button>
-                     </form></td>
-                    <td>
-                        <div class="btn-group open">
-                            <div style="border: none; height: 30px;  padding: 5px; width: 72px;  color: green;">
-                                Berhasil 
+                    <tr>
+                        <td>Tanto Mitra</td>
+                        <td>19-Juli-2021</td>
+                        <td>Permohonan Koreksi dan Restitusi Nota Kapal</td>
+                        <td>
+                            <form method="get" action="file/PenerimaanKP.pdf">
+                                <button type="submit">Download</button>
+                            </form>
+                        </td>
+                        <td>
+                            <div class="btn-group open">
+                                <div style="border: none; height: 30px;  padding: 5px; width: 72px;  color: green;">
+                                    Berhasil
+                                </div>
+                                <a class="btn btn-default"><i class="icon-cog"></i> </a>
+                                <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <span class=" "></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Proses</a></li>
+                                    <li><a href="#">Ditolak</a></li>
+                                    <li><a href="#">Berhasil</a></li>
+                                    <li class="divider"></li>
+                                </ul>
                             </div>
-                            <a class="btn btn-default"><i class="icon-cog"></i>   </a>
-                            <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
-                            <span class=" "></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Proses</a></li>
-                                <li><a href="#">Ditolak</a></li>
-                                <li><a href="#">Berhasil</a></li>                          
-                                <li class="divider"></li>                            
-                            </ul>
-                        </div>
-                    </td>                
-                  </tr>
+                        </td>
+                    </tr>
 
-                  <tr>
-                    <td>Umsini KM</td>
-                    <td>19-Agustus-2021</td>
-                    <td>Permohonan Koreksi Nota Kapal</td>
-                    <td>
-                        <form method="get" action="file/PenerimaanKP.pdf">
-                            <button type="submit">Download</button>
-                        </form>
-                    </td>
-                    <td>
-                        <div class="btn-group open">
-                            <div style="border: none; height: 30px;  padding: 5px; width: 70px; color: red;">
-                                Ditolak 
+                    <tr>
+                        <td>Umsini KM</td>
+                        <td>19-Agustus-2021</td>
+                        <td>Permohonan Koreksi Nota Kapal</td>
+                        <td>
+                            <form method="get" action="file/PenerimaanKP.pdf">
+                                <button type="submit">Download</button>
+                            </form>
+                        </td>
+                        <td>
+                            <div class="btn-group open">
+                                <div style="border: none; height: 30px;  padding: 5px; width: 70px; color: red;">
+                                    Ditolak
+                                </div>
+                                <a class="btn btn-default"><i class="icon-cog"></i></a>
+                                <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <span class=" "></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Proses</a></li>
+                                    <li><a href="#">Ditolak</a></li>
+                                    <li><a href="#">Berhasil</a></li>
+                                    <li class="divider"></li>
+                                </ul>
                             </div>
-                            <a class="btn btn-default"><i class="icon-cog"></i></a>
-                            <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
-                            <span class=" "></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Proses</a></li>
-                                <li><a href="#">Ditolak</a></li>
-                                <li><a href="#">Berhasil</a></li>                          
-                                <li class="divider"></li>
-                            </ul>
-                        </div>
-                    </td>
-                  </tr>
+                        </td>
+                    </tr>
                 </tbody>
-            </table>        
+            </table>
         </div>
     </div>
 
@@ -163,8 +165,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
-        $(document).ready(function () {
-            $('#sidebarCollapse').on('click', function () {
+        $(document).ready(function() {
+            $('#sidebarCollapse').on('click', function() {
                 $('#sidebar').toggleClass('active');
             });
         });
