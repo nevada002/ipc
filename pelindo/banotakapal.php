@@ -71,9 +71,9 @@
                     </ul>
                 </li>
 
-                <li>
+                <!-- <li>
                     <a href="review.php">Review</a>
-                </li>
+                </li> -->
                 <li>
                     <a href="index.php">Logout</a>
                 </li>

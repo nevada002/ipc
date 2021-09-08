@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>BA Nota Penghapusan PPKB</title>
-    <link rel = "icon" href ="assets/img/logoatas.svg" type = "image/x-icon">
+    <link rel="icon" href="assets/img/logoatas.svg" type="image/x-icon">
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 
-<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
@@ -66,13 +66,12 @@
                         </li>
                         <li>
                             <a href="buatbahapusppkb.php">Membuat Berita Acara Penghapusan PPKB</a>
-                            </li>
+                        </li>
                     </ul>
                 </li>
-
-                <li>
+                <!-- <li>
                     <a href="review.php">Review</a>
-                </li>
+                </li> -->
                 <li>
                     <a href="index.php">Logout</a>
                 </li>
@@ -90,68 +89,70 @@
 
             <table class="table table-bordered table text-center" style="background: transparent;">
                 <thead>
-                  <tr>
-                    <th scope="col">Nama Kapal</th>
-                    <th scope="col">Bendera </th>
-                    <th scope="col">No.PPKB/ Ke </th>
-                    <th scope="col">Service Code </th>
-                    <th scope="col">Agen/KodeAgen</th>
-                    <th scope="col">Alasan Penghapusan</th>
-                    <th scope="col">Aksi</th>
-                  </tr>
+                    <tr>
+                        <th scope="col">Nama Kapal</th>
+                        <th scope="col">Bendera </th>
+                        <th scope="col">No.PPKB/ Ke </th>
+                        <th scope="col">Service Code </th>
+                        <th scope="col">Agen/KodeAgen</th>
+                        <th scope="col">Alasan Penghapusan</th>
+                        <th scope="col">Aksi</th>
+                    </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td>AHT SMS EXPLORER</td>
-                    <td>Indonesia</td>
-                    <td>202101003015/ 7 Ex.4</td>
-                    <td>Perpanjangan</td>
-                    <td>PT.BAHARI EKA NUSANTARA/850</td>
-                    <td>Karena PPKB Double Entry</td>
-                    <td> <div class="btn-group open">
-                        <div style="border: none; height: 30px;  padding: 5px; width: 72px;  color:blue;">
-                            Proses
-                        </div>
-                        <a class="btn btn-default"><i class="icon-cog"></i>   </a>
-                        <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
-                          <span class=" "></span></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Proses</a></li>
-                          <li><a href="#">Ditolak</a></li>
-                          <li><a href="#">Berhasil</a></li>
-                          <li><a href=""></a></li>
-                          <li class="divider"></li>
-                        </ul>
-                      </div>
-                    </td>
+                    <tr>
+                        <td>AHT SMS EXPLORER</td>
+                        <td>Indonesia</td>
+                        <td>202101003015/ 7 Ex.4</td>
+                        <td>Perpanjangan</td>
+                        <td>PT.BAHARI EKA NUSANTARA/850</td>
+                        <td>Karena PPKB Double Entry</td>
+                        <td>
+                            <div class="btn-group open">
+                                <div style="border: none; height: 30px;  padding: 5px; width: 72px;  color:blue;">
+                                    Proses
+                                </div>
+                                <a class="btn btn-default"><i class="icon-cog"></i> </a>
+                                <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <span class=" "></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Proses</a></li>
+                                    <li><a href="#">Ditolak</a></li>
+                                    <li><a href="#">Berhasil</a></li>
+                                    <li><a href=""></a></li>
+                                    <li class="divider"></li>
+                                </ul>
+                            </div>
+                        </td>
 
-                  </tr>
-                  <tr>
-                    <td>AHT UMSINI KM</td>
-                    <td>Indonesia</td>
-                    <td>202101003015/ 7 Ex.10</td>
-                    <td>Perpanjangan</td>
-                    <td>PT.BAHARI/850</td>
-                    <td>Karena PPKB Double Entry</td>
-                    <td> <div class="btn-group open">
-                        <div style="border: none; height: 30px;  padding: 5px; width: 72px;  color:red;">
-                            Ditolak
-                        </div>
-                        <a class="btn btn-default"><i class="icon-cog"></i>   </a>
-                        <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
-                          <span class=" "></span></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Proses</a></li>
-                          <li><a href="#">Ditolak</a></li>
-                          <li><a href="#">Berhasil</a></li>
-                          <li><a href=""></a></li>
-                          <li class="divider"></li>
-                        </ul>
-                      </div>
-                    </td>
+                    </tr>
+                    <tr>
+                        <td>AHT UMSINI KM</td>
+                        <td>Indonesia</td>
+                        <td>202101003015/ 7 Ex.10</td>
+                        <td>Perpanjangan</td>
+                        <td>PT.BAHARI/850</td>
+                        <td>Karena PPKB Double Entry</td>
+                        <td>
+                            <div class="btn-group open">
+                                <div style="border: none; height: 30px;  padding: 5px; width: 72px;  color:red;">
+                                    Ditolak
+                                </div>
+                                <a class="btn btn-default"><i class="icon-cog"></i> </a>
+                                <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <span class=" "></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Proses</a></li>
+                                    <li><a href="#">Ditolak</a></li>
+                                    <li><a href="#">Berhasil</a></li>
+                                    <li><a href=""></a></li>
+                                    <li class="divider"></li>
+                                </ul>
+                            </div>
+                        </td>
 
-                  </tr>
-                  </tbody>
+                    </tr>
+                </tbody>
             </table>
 
         </div>
@@ -165,8 +166,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
-        $(document).ready(function () {
-            $('#sidebarCollapse').on('click', function () {
+        $(document).ready(function() {
+            $('#sidebarCollapse').on('click', function() {
                 $('#sidebar').toggleClass('active');
             });
         });

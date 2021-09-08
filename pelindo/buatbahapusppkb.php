@@ -68,9 +68,9 @@
                         </li>
                     </ul>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="review.php">Review</a>
-                </li>
+                </li> -->
                 <li>
                     <a href="index.php">Logout</a>
                 </li>
@@ -115,7 +115,7 @@
                             </div>
                             <div class="mb-3">
                                 <label for="noukk" class="form-label">No UKK</label>
-                                <input type="text" class="form-control" id="noukk">
+                                <input type="number" class="form-control" id="noukk">
                             </div>
                             <div class="mb-3">
                                 <label for="agen" class="form-label">Agen</label>
@@ -235,36 +235,40 @@
                                         <input type="date" class="form-control" id="haridantanggal">
                                     </div>
                                     <div class="mb-3">
-                                        <label for="namaperusahaan" class="form-label">Nama Perusahaan</label>
-                                        <input type="text" class="form-control" id="namaperusahaan">
+                                        <label for="namakapal" class="form-label">Nama Kapal</label>
+                                        <input type="text" class="form-control" id="namakapal">
                                     </div>
                                     <div class="mb-3">
-                                        <label for="namaperusahaan" class="form-label">No Surat Perusahaan</label>
-                                        <input type="text" class="form-control" id="namaperusahaan">
+                                        <label for="noppkb" class="form-label">No PPKB / Ke</label>
+                                        <input type="text" class="form-control" id="noppkb">
                                     </div>
                                     <div class="mb-3">
-                                        <label for="haridantanggal" class="form-label">Tanggal Surat</label>
-                                        <input type="date" class="form-control" id="haridantanggal">
+                                        <label for="servicecode" class="form-label">Service Code</label>
+                                        <input type="text" class="form-control" id="servicecode">
                                     </div>
                                     <div class="mb-3">
-                                        <label for="perihal" class="form-label">Perihal</label>
-                                        <textarea class="form-control" id="perihal" rows="2"></textarea>
+                                        <label for="noukk" class="form-label">No.UKK</label>
+                                        <input type="number" class="form-control" id="noukk">
                                     </div>
                                     <div class="mb-3">
-                                        <label for="penjelasan" class="form-label">Penjelasan</label>
-                                        <textarea class="form-control" id="penjelasan" rows="3"></textarea>
+                                        <label for="agen" class="form-label">Agen</label>
+                                        <input type="text" class="form-control" id="agen">
                                     </div>
                                     <div class="mb-3">
-                                        <label for="nomornotakapal" class="form-label">Nomor Nota Kapal</label>
-                                        <input type="text" class="form-control" id="nomornotakapal">
+                                        <label for="lokasi" class="form-label">Lokasi</label>
+                                        <input type="text" class="form-control" id="lokasi">
                                     </div>
                                     <div class="mb-3">
-                                        <label for="keterangan" class="form-label">Keterangan</label>
-                                        <input type="text" class="form-control" id="keterangan">
+                                        <label for="tujuan" class="form-label">Tujuan</label>
+                                        <input type="text" class="form-control" id="tujuan">
                                     </div>
                                     <div class="mb-3">
-                                        <label for="pembuat" class="form-label">Dibuat Oleh</label>
-                                        <input type="text" class="form-control" id="pembuat">
+                                        <label for="alasan" class="form-label">Alasan Penghapusan PPKB</label>
+                                        <textarea class="form-control" id="alasan" rows="3"></textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="pembuat " class="form-label">Dibuat Oleh</label>
+                                        <input type="text" class="form-control" id="pembuat ">
                                     </div>
                                     <div class="mb-3">
                                         <label for="lampiranpendukung">Lampiran Pendukung</label>
