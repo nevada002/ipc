@@ -203,13 +203,13 @@
                                         <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
                                     </svg>
                                 </button>
-                                <button type="button" class="btn btn-secondary mx-2">
+                                <button type="button" class="btn btn-secondary mx-2" data-toggle="modal" data-target="#approveModal">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
                                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                                         <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
                                     </svg>
                                 </button>
-                                <button type="button" class="btn btn-info mx-2">
+                                <button type="button" class="btn btn-info mx-2" data-toggle="modal" data-target="#listModal">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list-check" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3.854 2.146a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 3.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 7.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z" />
                                     </svg>
@@ -217,79 +217,8 @@
                             </div>
                         </td>
                     </tr>
-                    <!-- Modal -->
-                    <div id="viewModal" class="modal fade" role="dialog">
-                        <div class="modal-dialog modal-dialog-scrollable">
-                            <!-- Modal content-->
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <img class="w-100 h-100" src="file/Koreksi Nota Kapal.jpeg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Modal -->
-                    <div id="editModal" class="modal fade" role="dialog">
-                        <div class="modal-dialog modal-dialog-scrollable">
-                            <!-- Modal content-->
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h4 class="modal-title">Edit Surat Berita Acara Koreksi Nota Kapal</h4>
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="mb-3">
-                                        <label for="nomorsurat" class="form-label">Nomor Surat</label>
-                                        <input type="text" class="form-control" id="nomorsurat">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="date" class="form-label">Hari dan Tanggal</label>
-                                        <input type="date" class="form-control" id="date">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="namaperusahaan" class="form-label">Nama Perusahaan</label>
-                                        <input type="text" class="form-control" id="namaperusahaan">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="namaperusahaan" class="form-label">No Surat Perusahaan</label>
-                                        <input type="text" class="form-control" id="namaperusahaan">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="haridantanggal" class="form-label">Tanggal Surat</label>
-                                        <input type="date" class="form-control" id="haridantanggal">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="perihal" class="form-label">Perihal</label>
-                                        <textarea class="form-control" id="perihal" rows="2"></textarea>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="penjelasan" class="form-label">Penjelasan</label>
-                                        <textarea class="form-control" id="penjelasan" rows="3"></textarea>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="nomornotakapal" class="form-label">Nomor Nota Kapal</label>
-                                        <input type="text" class="form-control" id="nomornotakapal">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="keterangan" class="form-label">Keterangan</label>
-                                        <input type="text" class="form-control" id="keterangan">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="pembuat" class="form-label">Dibuat Oleh</label>
-                                        <input type="text" class="form-control" id="pembuat">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="lampiranpendukung">Lampiran Pendukung</label>
-                                        <input type="file" class="form-control-file" id="lampiranpendukung">
-                                    </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <bottom type="button" class="btn btn-default btn-primary " data-dismiss="modal">Simpan</bottom>
-                                    <button type="button" class="btn btn-default btn-secondary " data-dismiss="modal">Keluar</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+
                     <!-- <tr>
                             <td>2</td>
                             <td></td>
@@ -322,6 +251,158 @@
                         </tr> -->
                 </tbody>
             </table>
+
+            <!-- Modal -->
+            <div id="viewModal" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-dialog-scrollable">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img class="w-100 h-100" src="file/Koreksi Nota Kapal.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div id="editModal" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-dialog-scrollable">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Edit Surat Berita Acara Koreksi Nota Kapal</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="nomorsurat" class="form-label">Nomor Surat</label>
+                                <input type="text" class="form-control" id="nomorsurat">
+                            </div>
+                            <div class="mb-3">
+                                <label for="date" class="form-label">Hari dan Tanggal</label>
+                                <input type="date" class="form-control" id="date">
+                            </div>
+                            <div class="mb-3">
+                                <label for="namaperusahaan" class="form-label">Nama Perusahaan</label>
+                                <input type="text" class="form-control" id="namaperusahaan">
+                            </div>
+                            <div class="mb-3">
+                                <label for="namaperusahaan" class="form-label">No Surat Perusahaan</label>
+                                <input type="text" class="form-control" id="namaperusahaan">
+                            </div>
+                            <div class="mb-3">
+                                <label for="haridantanggal" class="form-label">Tanggal Surat</label>
+                                <input type="date" class="form-control" id="haridantanggal">
+                            </div>
+                            <div class="mb-3">
+                                <label for="perihal" class="form-label">Perihal</label>
+                                <textarea class="form-control" id="perihal" rows="2"></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label for="penjelasan" class="form-label">Penjelasan</label>
+                                <textarea class="form-control" id="penjelasan" rows="3"></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label for="nomornotakapal" class="form-label">Nomor Nota Kapal</label>
+                                <input type="text" class="form-control" id="nomornotakapal">
+                            </div>
+                            <div class="mb-3">
+                                <label for="keterangan" class="form-label">Keterangan</label>
+                                <input type="text" class="form-control" id="keterangan">
+                            </div>
+                            <div class="mb-3">
+                                <label for="pembuat" class="form-label">Dibuat Oleh</label>
+                                <input type="text" class="form-control" id="pembuat">
+                            </div>
+                            <div class="mb-3">
+                                <label for="lampiranpendukung">Lampiran Pendukung</label>
+                                <input type="file" class="form-control-file" id="lampiranpendukung">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <bottom type="button" class="btn btn-default btn-primary " data-dismiss="modal">Simpan</bottom>
+                            <button type="button" class="btn btn-default btn-secondary " data-dismiss="modal">Keluar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div id="approveModal" class="modal fade">
+                <div class="modal-dialog modal-dialog-scrollable">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body table-responsive">
+                            <table class="table table-bordered text-center" id="table1">
+                                <thead>
+                                    <tr>
+                                        <th class="align-text-top" scope="col">No</th>
+                                        <th class="align-text-top" scope="col">Judul</th>
+                                        <th class="align-text-top" scope="col">Aksi</th>
+                                        <th class="align-text-top" scope="col">Approve</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>
+                                        <div class="btn-group open">
+                                            <button type="button" class="btn btn-primary mx-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                    <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+                                                </svg>
+                                            </button>
+                                            <button type="button" class="btn btn-success mx-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="listModal" class="modal fade">
+                <div class="modal-dialog modal-dialog-scrollable">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">List Approve</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body table-responsive">
+                            <table class="table table-bordered text-center" id="table1">
+                                <thead>
+                                    <tr>
+                                        <th class="align-text-top" scope="col">No</th>
+                                        <th class="align-text-top" scope="col">Nama</th>
+                                        <th class="align-text-top" scope="col">Jabatan</th>
+                                        <th class="align-text-top" scope="col">Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <td>1</td>
+                                    <td>Mochamad Anwar</td>
+                                    <td>Supervisor Humas dan Pelayanaan Pelanggan</td>
+                                    <td>09/09/2021.15:55</td>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
     <!-- jQuery CDN - Slim version (=without AJAX) -->
