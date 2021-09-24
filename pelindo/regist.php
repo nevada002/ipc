@@ -180,7 +180,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <form action="dashboard.php">
+                  <form action="dashboardverif.php">
                     <div class="col mt-auto mb-3 ">
                       <input type="text" class="form-control border-0" id="exampleFormControlInput1" placeholder="Nama Lengkap">
                     </div>
@@ -229,7 +229,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <form action="dashboard.php">
+                  <form action="dashboardverif.php">
                     <div class="col mt-auto mb-3 ">
                       <input type="text" class="form-control border-0" id="exampleFormControlInput1" placeholder="Nama Lengkap">
                     </div>
@@ -256,9 +256,9 @@
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background: none; border: none;">
-                    <div class="col mt-4 text-dark ">Sudah memiliki akun?<a href="loginadmin.php">Login</a></div>Login
+                    <div class="col mt-4 text-dark ">Sudah memiliki akun?<a href="loginverif.php">Login</a></div>Login
                   </button>
-                  <a href="loginadmin.php"><button type="submit" class="btn btn-primary">Daftar</button></a>
+                  <a href="loginverif.php"><button type="submit" class="btn btn-primary">Daftar</button></a>
                 </div>
               </div>
             </div>
