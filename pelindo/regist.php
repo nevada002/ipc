@@ -207,9 +207,9 @@
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background: none; border: none;">
-                    <div class="col mt-4 text-dark ">Sudah memiliki akun?<a href="loginadmin.php">Login</a></div>Login
+                    <div class="col mt-4 text-dark ">Sudah memiliki akun?<a href="loginverif.php">Login</a></div>Login
                   </button>
-                  <a href="loginadmin.php"><button type="submit" class="btn btn-primary">Daftar</button></a>
+                  <a href="loginverif.php"><button type="submit" class="btn btn-primary">Daftar</button></a>
                 </div>
               </div>
             </div>

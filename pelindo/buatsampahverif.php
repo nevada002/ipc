@@ -32,17 +32,17 @@
             </div>
             <ul class="list-unstyled components ">
                 <li>
-                    <a href="dashboard.php">Dashboard</a>
+                    <a href="dashboardverif.php">Dashboard</a>
                 </li>
                 <li>
                     <a href="#notakapal" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Berita Acara Nota Kapal</a>
                     <ul class="collapse list-unstyled" id="notakapal">
                         <li>
-                            <a href="banotakapal.php">Keluhan Berita Acara
+                            <a href="#">Keluhan Berita Acara
                                 Nota Kapal</a>
                         </li>
                         <li>
-                            <a href="buatnotaverif.php">Membuat Berita Acara Nota Kapal</a>
+                            <a href="buatbanotaverif.php">Membuat Berita Acara Nota Kapal</a>
                         </li>
                     </ul>
                 </li>
@@ -50,7 +50,7 @@
                     <a href="#notasampah" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Berita Acara Nota Sampah Kapal</a>
                     <ul class="collapse list-unstyled" id="notasampah">
                         <li>
-                            <a href="basampahkapal.php">Keluhan Berita Acara Nota Sampah Kapal</a>
+                            <a href="#">Keluhan Berita Acara Nota Sampah Kapal</a>
                         </li>
                         <li>
                             <a href="buatsampahverif.php">Membuat Berita Acara Nota Sampah Kapal</a>
@@ -61,10 +61,10 @@
                     <a href="#hapusppkb" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Berita Acara Penghapusan PPKB</a>
                     <ul class="collapse list-unstyled" id="hapusppkb">
                         <li>
-                            <a href="bahapusverif.php">Keluhan Berita Acara Penghapusan PPKB</a>
+                            <a href="#">Keluhan Berita Acara Penghapusan PPKB</a>
                         </li>
                         <li>
-                            <a href="buatbahapusppkb.php">Membuat Berita Acara Penghapusan PPKB</a>
+                            <a href="buatbahapusppkbverif.php">Membuat Berita Acara Penghapusan PPKB</a>
                         </li>
                     </ul>
                 </li>
